@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8756271223880745917
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DEMI_JUMP_NOMRAL_04_{-8756271223880745917}
+  m_AudioClip: {fileID: 8300000, guid: 18766c0c333883e4c86bed474a803613, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5868604603349735238
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DEMI_DMAGE_HEAVY_02_{-5868604603349735238}
+  m_AudioClip: {fileID: 8300000, guid: 7213a8ae74eddb04e9831df2c63a6a91, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &894930762231194271
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DEMI_DMAGE_HEAVY_01_{894930762231194271}
+  m_AudioClip: {fileID: 8300000, guid: 5b434e47a53b8b54fba8a3c3b1e1a97d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2686497035178751606
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DEMI_JUMP_NOMRAL_05_{2686497035178751606}
+  m_AudioClip: {fileID: 8300000, guid: f069e146e06afef459a9b1df87a78e29, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Random aduio
+  m_Volume: 0
+  m_Pitch: -292
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -3.404255, y: 3.404255}
+  m_PitchRandomizationRange: {x: -1174.4681, y: 1200}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 2686497035178751606}
+  - {fileID: -8756271223880745917}
+  - {fileID: 7081472537309072452}
+  - {fileID: 894930762231194271}
+  - {fileID: -5868604603349735238}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &7081472537309072452
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DEMI_DMAGE_HEAVY_04_{7081472537309072452}
+  m_AudioClip: {fileID: 8300000, guid: 06d6fa0ca53cdf443b00f9c57cf8fe4a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
